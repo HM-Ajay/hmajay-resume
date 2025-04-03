@@ -10,9 +10,7 @@ const Footer = () => {
       <div className="container">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div>
-            <span className="font-heading font-bold text-xl">
-              Ajay<span className="text-primary">.dev</span>
-            </span>
+            {/* Removed the Ajay.dev text that was here */}
           </div>
           
           <div className="text-center md:text-right">

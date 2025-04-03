@@ -50,18 +50,7 @@ const Hero = () => {
             </div>
           </div>
           
-          <div className="lg:col-span-2 flex items-center justify-center animate-fade-in" style={{ animationDelay: '0.5s' }}>
-            <div className="aspect-square w-full max-w-md bg-primary/10 rounded-full flex items-center justify-center">
-              <div className="aspect-square w-[95%] bg-primary/20 rounded-full flex items-center justify-center">
-                <div className="aspect-square w-[90%] bg-gradient-to-br from-primary/30 to-primary/10 rounded-full p-2 flex items-center justify-center">
-                  {/* This is a placeholder for a profile image */}
-                  <div className="w-full h-full rounded-full bg-gradient-to-br from-primary to-blue-700 flex items-center justify-center text-white text-6xl font-bold">
-                    A
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          {/* Removed the circular "A" image that was here */}
         </div>
       </div>
     </section>

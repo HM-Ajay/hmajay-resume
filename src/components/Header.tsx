@@ -22,7 +22,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 bg-background/90 backdrop-blur-sm z-50 border-b border-border">
       <div className="container py-4 flex items-center justify-between">
         <a href="#hero" className="text-xl font-heading font-bold">
-          Ajay<span className="text-primary">.dev</span>
+          {/* Removed Ajay.dev text that was here */}
         </a>
 
         {/* Desktop Navigation */}
