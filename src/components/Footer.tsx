@@ -1,6 +1,7 @@
 
 import React from 'react';
-import { Heart } from 'lucide-react';
+import { Heart, Download } from 'lucide-react';
+import { Button } from './ui/button';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,7 +11,22 @@ const Footer = () => {
       <div className="container">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div>
-            {/* Removed the Ajay.dev text that was here */}
+            <Button 
+              variant="ghost" 
+              size="sm" 
+              className="gap-2 text-foreground/70 hover:text-primary"
+              onClick={() => {
+                const link = document.createElement('a');
+                link.href = '/resume_ajay.pdf';
+                link.download = 'HM_Ajay_Resume.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }}
+            >
+              <Download size={14} />
+              Download Resume
+            </Button>
           </div>
           
           <div className="text-center md:text-right">

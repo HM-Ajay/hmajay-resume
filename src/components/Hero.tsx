@@ -43,7 +43,18 @@ const Hero = () => {
               <Button className="gap-2" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
                 Contact Me
               </Button>
-              <Button variant="outline" className="gap-2">
+              <Button 
+                variant="outline" 
+                className="gap-2" 
+                onClick={() => {
+                  const link = document.createElement('a');
+                  link.href = '/resume_ajay.pdf';
+                  link.download = 'HM_Ajay_Resume.pdf';
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+                }}
+              >
                 <Download size={16} />
                 Download Resume
               </Button>
