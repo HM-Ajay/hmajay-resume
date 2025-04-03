@@ -16,12 +16,69 @@ endobj
 <</Type /Font /Subtype /Type1 /BaseFont /Helvetica>>
 endobj
 6 0 obj
-<</Length 44>>
+<</Length 1024>>
 stream
 BT
-/F1 24 Tf
-100 700 Td
-(H M Ajay Resume) Tj
+/F1 16 Tf
+200 750 Td
+(H M AJAY) Tj
+/F1 12 Tf
+-50 -20 Td
+(Undergraduate IT Engineer) Tj
+-70 -20 Td
+(JP Nagar, Bengaluru — ajaymanjunath25@gmail.com — +91 789 239 6314) Tj
+-50 -40 Td
+(Profile) Tj
+-30 -20 Td
+(Self-motivated IT engineering student with a strong grasp of Python, Java, C, and Cloud Computing.) Tj
+0 -15 Td
+(Passionate about problem-solving, software development, and optimizing systems for efficiency.) Tj
+-30 -40 Td
+(Skills) Tj
+0 -20 Td
+(• Python, Java, C                                            • Arduino IDE, IoT) Tj
+0 -15 Td
+(• Cloud Computing                                       • Problem-Solving) Tj
+0 -15 Td
+(• Data Structures, OOP                                • Competitive Programming) Tj
+0 -15 Td
+(• Git, GitHub                                                 • Time Management) Tj
+-30 -40 Td
+(Education) Tj
+0 -20 Td
+(B.E. in Computer Science & Engineering                                   CGPA: 8.7 (Ongoing)) Tj
+0 -15 Td
+(B.V. Institute of Technology, 2027) Tj
+0 -15 Td
+(12th Grade: 95.6%, Vijaya Composite PU College, 2023) Tj
+0 -15 Td
+(10th Grade: 94.4%, Aradhana Academy, 2021) Tj
+-30 -40 Td
+(Projects) Tj
+0 -20 Td
+(To-Do List — Live Demo) Tj
+0 -15 Td
+(A fully functional task manager with features such as task creation, editing, deletion, completion tracking,) Tj
+0 -15 Td
+(and persistent storage.) Tj
+0 -15 Td
+(Online Voting System — GitHub) Tj
+0 -15 Td
+(A secure and efficient online voting system with real-time vote tallying, authentication, and tamper-proof) Tj
+0 -15 Td
+(design.) Tj
+-30 -40 Td
+(Experience) Tj
+0 -20 Td
+(Google Developer Students Club (2023)) Tj
+0 -15 Td
+(Hackathons & Open-Source (2024)) Tj
+-30 -40 Td
+(Languages) Tj
+0 -20 Td
+(• English: Fluent                                              • Hindi: Intermediate) Tj
+0 -15 Td
+(• Kannada: Fluent) Tj
 ET
 endstream
 endobj
@@ -37,5 +94,5 @@ xref
 trailer
 <</Size 7 /Root 1 0 R>>
 startxref
-408
+1400
 %%EOF
