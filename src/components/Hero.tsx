@@ -4,6 +4,16 @@ import { Button } from '@/components/ui/button';
 import { MapPin, Mail, Phone, Download } from 'lucide-react';
 
 const Hero = () => {
+  const handleDownloadResume = () => {
+    // Create link element
+    const link = document.createElement('a');
+    link.href = '/resume_ajay.pdf';
+    link.download = 'HM_Ajay_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section id="hero" className="min-h-screen pt-28 pb-20 flex items-center justify-center">
       <div className="container">
@@ -46,22 +56,13 @@ const Hero = () => {
               <Button 
                 variant="outline" 
                 className="gap-2" 
-                onClick={() => {
-                  const link = document.createElement('a');
-                  link.href = '/resume_ajay.pdf';
-                  link.download = 'HM_Ajay_Resume.pdf';
-                  document.body.appendChild(link);
-                  link.click();
-                  document.body.removeChild(link);
-                }}
+                onClick={handleDownloadResume}
               >
                 <Download size={16} />
                 Download Resume
               </Button>
             </div>
           </div>
-          
-          {/* Removed the circular "A" image that was here */}
         </div>
       </div>
     </section>

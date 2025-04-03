@@ -6,6 +6,16 @@ import { Button } from './ui/button';
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
+  const handleDownloadResume = () => {
+    // Create link element
+    const link = document.createElement('a');
+    link.href = '/resume_ajay.pdf';
+    link.download = 'HM_Ajay_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+  
   return (
     <footer className="bg-background border-t border-border py-8">
       <div className="container">
@@ -15,14 +25,7 @@ const Footer = () => {
               variant="ghost" 
               size="sm" 
               className="gap-2 text-foreground/70 hover:text-primary"
-              onClick={() => {
-                const link = document.createElement('a');
-                link.href = '/resume_ajay.pdf';
-                link.download = 'HM_Ajay_Resume.pdf';
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-              }}
+              onClick={handleDownloadResume}
             >
               <Download size={14} />
               Download Resume
